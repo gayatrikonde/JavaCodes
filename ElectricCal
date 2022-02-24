@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class ElectricCal
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the units consumed");
+		int unit=sc.nextInt();
+
+		if(unit<=20)
+		{
+			System.out.println("No Charge");
+
+		}
+		else if(unit>20 && unit<=100)
+		{
+			Total=3.50*unit
+			System.out.println(Total);
+		}
+		else
+		{
+			Total=5.00*unit
+			System.out.println(Total);
+		}
+	}
+
+}

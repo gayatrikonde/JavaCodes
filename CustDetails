@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class CustDetails
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your Name:")
+		String name=sc.nextLine();
+
+		
+		System.out.println("Enter age:")
+		int age=sc.nextInt();
+		sc.nextLine();
+
+		
+		System.out.println("Enter Gender:")
+		String Gender=sc.nextLine();
+
+		
+		System.out.println("Hailing From:")
+		String city=sc.nextLine();
+
+		System.out.println("Welcome, "+name);
+		System.out.println("Age: "+age);
+		System.out.println("Gender: "+gender);
+		System.out.println("City: "+city);
+
+
+
+
+	}
+	
+}

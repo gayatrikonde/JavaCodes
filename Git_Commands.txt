@@ -1,0 +1,10 @@
+git init -> To initialize git in a Repo/Project
+git add <fileName1> -> This is used to move File1 to staging area
+git add <fileName1> <fileName2> <fileName3> and so on..
+git add . -> To move All the Files to Staging Area
+git commit -m "<MessageThat You Want To Pass>"  -> This is used to commit/confirm the changes present in staging area 
+git pull origin <BranchName> -> To take all the changes from github/RemoteRepo
+git push origin <BranchName> -> To push all the changes to github/RemoteRepo
+git log -> To Check All The Commits
+git status -> To Check The All The Files That Are Changed
+
