@@ -7,4 +7,6 @@ git pull origin <BranchName> -> To take all the changes from github/RemoteRepo
 git push origin <BranchName> -> To push all the changes to github/RemoteRepo
 git log -> To Check All The Commits
 git status -> To Check The All The Files That Are Changed
+git branch  -> To Get All The Branches
+
 
